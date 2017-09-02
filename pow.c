@@ -11,5 +11,5 @@ for(i=1;i<=n-1;i++)
 {
 a=a*a;
 }
-printf("The power of %d is:%d",b,a);
+printf("The %d power of %d is:%d",n,b,a);
 }
