@@ -9,7 +9,7 @@ void main()
        int n;
        printf("How many number u want to insert \n");
       scanf("%d",&n);
-       printf("Enter the numbers");
+       printf("Enter the numbers \n");
        for(i=0;i<n;i++)
       {
        scanf("%d",&a[i]);
@@ -36,11 +36,11 @@ void main()
 		printf("The number based on their binary 1's:\n");
 		for(i=0;i<2;i++)
 	{
-		printf("%d's 1's is:%d",b[i],c[i]);
+		printf("%d's 1's is:%d \n",b[i],c[i]);
 	}
 	for(i=0;i<n;i++)
 	{
-		for(j=i+1;j<2;j++)
+		for(j=i+1;j<n;j++)
 		{
 			if(c[i]<c[j])
 			{
