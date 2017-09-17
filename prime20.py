@@ -2,6 +2,8 @@ stack=[]
 st=[]
 list=[]
 new_list=[]
+new_list2=[]
+list3=[]
 for x in range(1,100):
 	c=0
 	for y in range(2,x):
@@ -26,5 +28,12 @@ for x in st:
 for i in list:
     if i not in new_list:
         new_list.append(i)
+    else:
+    	new_list2.append(i)
+for i in new_list2:
+	if i not in list3:
+		list3.append(i)
 print "It is the all prime number which is the sum of digit of the prime numbers below 100"
 print (new_list)
+print "Repeated prime numbers:"
+print(list3)
