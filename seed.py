@@ -1,8 +1,8 @@
 n=int(input('Enter the number'))
 c=0
-for x in range(1,125):
+for x in range(1,n/2):
 	rt=1
-	ft=1
+	sd=1
 	a=x
 	stack=[]
 	while x>0:
@@ -12,8 +12,8 @@ for x in range(1,125):
  
 	for y in stack:
 		rt=rt*y
-	ft=rt*a
-	if (ft==n):
+	sd=rt*a
+	if (sd==n):
 		print 'Seed for',n,'is', a
 		c=1
 if c!=1:
