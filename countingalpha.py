@@ -1,4 +1,4 @@
-s=input('Enter any string')
+s=raw_input('Enter any string')
 alp=0
 integer=0
 for x in s:
