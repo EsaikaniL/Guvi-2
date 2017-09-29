@@ -4,4 +4,5 @@ void main()
 	if(printf("Hello world")){
  
 	}
+getch();
 }
