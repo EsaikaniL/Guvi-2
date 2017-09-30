@@ -10,4 +10,5 @@ for x in range(0,n-1):
 		t.append(-y)
 	else:
 		t.append(y)
-print t
+t.sort()
+print t[n-2]
