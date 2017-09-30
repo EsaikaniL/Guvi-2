@@ -1,0 +1,6 @@
+st=raw_input('Enter your address:\n')
+str=list(st)
+str.insert(3,".")
+str.insert(7,".")
+str.insert(10,".")
+print ''.join(str)
