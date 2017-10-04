@@ -15,4 +15,4 @@ for x in s:
 for x in t2:
 	if x not in t3:
 		t3.append(x)
-print ','.join(t3)
+print 'The repeated numbers are:\n',','.join(t3)
