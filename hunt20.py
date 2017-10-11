@@ -12,10 +12,10 @@ def fun(a,b):
 		for y in s1:
 			if y==1:
 				d=d+1
-		for z in range(2,c):
+		for z in range(2,d-1):
 			if d%z==0:
 				l=1
-		if (l==0) and (d!=1):
+		if (l==0)and (d!=1):
 			count=count+1
 	return count
 i=int(input('Enter the 1st value:\n'))
