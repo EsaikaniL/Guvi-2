@@ -3,7 +3,6 @@ s=['' for x in range(0,r)]
 st=''
 for x in range(0,r):
 	s[x]=raw_input()
-sd=list(s)
 for x in range(0,r):
 	if x%2==0:
 		st=st+s[x]
