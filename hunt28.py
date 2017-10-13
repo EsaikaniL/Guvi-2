@@ -1,4 +1,4 @@
-str="geeksforgeeks"
+str=raw_input('Enter any string:\n')
 s=[]
 st=list(str)
 st.sort()
