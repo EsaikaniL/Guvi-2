@@ -1,10 +1,14 @@
-n1=int(input("how many elements"))
+n1=int(input("how many elements \n"))
 ele=[]
-ans=1
+an=[]
 print("Enter the element")
 for x in range(0,n1):
-    n2=input()
+    n2=int(input())
     ele.append(n2)
-for x in ele:
-    ans=ans*int(x)
-print(ans)
+l=len(ele)
+for x in range(0,l):
+    for y in range(x,l):
+        for z in range(y+1,l):
+            ans=ele[y]*ele[z]
+            an.append(ans)
+print("The ans is:",max(an))
