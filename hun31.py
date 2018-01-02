@@ -7,8 +7,8 @@ for x in range(0,n1):
     ele.append(n2)
 l=len(ele)
 for y in range(0,l):
-    ans=1
+    ans=1*ele[y]
     for z in range(y+1,l):
-        ans=ele[y]*ele[z]
+        ans=ele[z]*ans
         an.append(ans)
 print("The ans is:",max(an))
