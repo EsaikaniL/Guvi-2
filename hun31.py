@@ -6,9 +6,9 @@ for x in range(0,n1):
     n2=int(input())
     ele.append(n2)
 l=len(ele)
-for x in range(0,l):
-    for y in range(x,l):
-        for z in range(y+1,l):
-            ans=ele[y]*ele[z]
-            an.append(ans)
+for y in range(0,l):
+    ans=1
+    for z in range(y+1,l):
+        ans=ele[y]*ele[z]
+        an.append(ans)
 print("The ans is:",max(an))
