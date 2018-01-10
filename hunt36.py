@@ -6,8 +6,7 @@ for x in range(0,n1):
 	t=input()
 	a.append(t)
 for x in a:
-	t=x[:-1]
+	t=x[::-1]
 	b.append(t)
-print(b)
 for x in b:
 	print(x," ")
