@@ -1,12 +1,20 @@
-#include<stdio.h>
-void main()
-{
-int i,sum=0,n;
-printf("Enter any pos number");
+#include <stdio.h>
+ 
+int main(void) {
+	int i,sum=0,n,k,a[30];
+printf("Enter N value");
 scanf("%d",&n);
-for(i=1;i<=n;i++)
+printf("Enter K value");
+scanf("%d",&k);
+printf("Enter tha array values");
+for(i=0;i<n;i++)
 {
-sum=sum+i;
+scanf("%d",&a[i]);
 }
-printf("The sum of %d is %d:",n,sum);
+for(i=0;i<k;i++)
+{
+  sum=sum+a[i];
+}
+printf("The sum is %d:",sum);
+	return 0;
 }
