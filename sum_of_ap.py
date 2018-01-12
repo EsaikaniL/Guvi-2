@@ -1,0 +1,5 @@
+a=int(input("Enter A value:"))
+d=int(input("Enter B value:"))
+n=int(input("Enter C value:"))
+s=((n//2)*(2*a+(n-1)*d))
+print("AP is",s)
