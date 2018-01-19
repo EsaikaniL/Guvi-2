@@ -1,15 +1,15 @@
-n=int(input('how many elemnts?\n'))
-print 'Enter the elements:\n'
-s=[]
-for x in range(0,n):
-	num=int(input())
-	s.append(num)
-a=int(s[0])
-c=0
-for x in range(0,n,a):
-	if (s.index(s[x])==s.index(s[n-1])):
-		c=1
-if c==0:
-	print 'false'
-else:
-	print 'True'
+num=int(input("How many elements?"))
+print("Enter the elements:")
+a=[]
+b=['k','a','b','a','l','i']
+for x in range(num):
+	k=input()
+	a.append(k)
+ans=0
+for x in a:
+	for y in x:
+		b.remove(y)
+	if len(b)==0:
+		ans=ans+1
+	b=['k','a','b','a','l','i']
+print(ans)
