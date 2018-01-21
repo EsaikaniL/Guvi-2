@@ -11,6 +11,7 @@ k=int(input("Enter the no of digit that u want to delete"));
 for x in range(k):
     stack.pop()
 print("The req least numbers are from the number",temp)   
+ans=''
 for Item in stack:
- print(Item)
-    
+ ans=ans+str(Item)
+print(ans)
