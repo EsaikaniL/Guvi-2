@@ -7,9 +7,13 @@ for x in range(n):
 s=int(input("Enter the sum value:"))
 b=sorted(a,reverse=True)
 res=0
-print(b)
+flag=0
 for x in b:
 	while(x<=s):
 		res+=1
 		s=s-x
-print(res)
+		flag=1
+if s==0 and flag==1:
+    print(res)
+else:
+    print("It is impossible")
