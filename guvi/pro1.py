@@ -16,6 +16,7 @@ for x in range(mi):
 			flag=1
 		else:
 			flag=0
+			break
 	if flag==1:
 		ans=ans+a[0][x]
 print(ans)
