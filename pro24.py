@@ -3,6 +3,7 @@ void main()
 {
 	int k;
 	int i,num=1,rem,base,bin,b;
+	printf("\n");
 	printf("Enter k value: \n");
 	scanf("%d",&k);
 	for(i=0;i<k;i++)
