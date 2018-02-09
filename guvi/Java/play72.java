@@ -16,6 +16,6 @@ class play72
 	}
 	Collections.sort(a);
 	
-	System.out.println(a);
+	System.out.println(a.get(n/2));
 	}
 }
