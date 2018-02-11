@@ -1,9 +1,9 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Ideone
+class play78
 {
-	public static void main (String[] args) throws java.lang.Exception
+	public static void main (String[] args)
 	{
 	
 		int a[]=new int[20];
