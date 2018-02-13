@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 class play79
 {
-	public static void main (String[] args) throws java.lang.Exception
+	public static void main (String[] args)
 	{
 	int a[]=new int[20];
 		int n,i,j,max=-1;
