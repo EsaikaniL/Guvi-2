@@ -1,12 +1,16 @@
-st1=input("Enter Valid brackets:")
-c1=0
-c2=0
-for x in st1:
-	if x=='(':
-		c1=c1+1
-	elif x==')':
-		c2=c2+1
-if c1==c2:
-	print("Yes")
+st1=input("Enter the brackets:")
+a=[]
+if st1[0]==')' or st1[len(st1)-1]=='(':
+	print("Not valid")
 else:
-	print("No")
+    l=len(st1)
+    for x in range(l):
+        if st1[x]=='(':
+            a.append(st1[x])
+        elif st1[x]==')' and len(a)!=0:
+            if a[len(a)-1]=='(':
+                a.pop()
+    if len(a)==0:
+        print("Valid")
+    else:
+        print("Invalid")
