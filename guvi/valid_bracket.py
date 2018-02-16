@@ -2,6 +2,8 @@ st1=input("Enter the brackets:")
 a=[]
 if st1[0]==')' or st1[len(st1)-1]=='(':
 	print("Not valid")
+elif st1.count('(')!=st1.count(')'):
+      print("Not valid")
 else:
     l=len(st1)
     for x in range(l):
