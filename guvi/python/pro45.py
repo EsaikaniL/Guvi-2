@@ -8,7 +8,7 @@ if p[0]=='0':
         else:
             break
 k=c*'0'+st
-if int(st)==int(k):
+if int(st)==int(k[::-1]):
     print("yes")
 else:
     print("No")
