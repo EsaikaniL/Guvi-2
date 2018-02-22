@@ -19,27 +19,32 @@ for x in b:
 f=['f','l','a','m','e','s']
 f1=[]
 flag=0
-i=0
-for x in range(5):
-    n=1
-    i=0
-    if flag==1:
-        f=f1
-        f1=[]
-        
-    while(n<=k1+k2):
-        flag=1
-        if i>=len(f)-1:
+if k1+k2==1:
+    f1.append('s')
+elif(k1+k2==0):
+    print("You entered same name")
+else:
+        for x in range(5):
+            n=1
             i=0
-        else:
-            i+=1
-        n+=1
-        
-        if n==(k1+k2):
-            for y in range(i+1,len(f)):
-                f1.append(f[y])
-            for y in range(0,i):
-                f1.append(f[y])
+            if flag==1:
+                f=f1
+                f1=[]
+                
+            while(n<=k1+k2):
+                flag=1
+                if i>=len(f)-1:
+                    i=0
+                else:
+                    i+=1
+                n+=1
+                
+                if n==(k1+k2):
+                    for y in range(i+1,len(f)):
+                        f1.append(f[y])
+                    for y in range(0,i):
+                        f1.append(f[y])
+                        
 for x in f1:
     if x=='f':
         print("You are Friends!!!")
@@ -53,3 +58,4 @@ for x in f1:
         print("You are Enemes!!!")
     if x=='s':
         print("Your partner is Brother (or) Sister!!!")
+
