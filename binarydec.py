@@ -1,10 +1,10 @@
-num=int(input('Enter the number \n'))
-st=[]
-s=[]
-s2=''
-while (num>0):
-	t=num%2
-	st.append(str(t))
-	num=num/2
-st.reverse()
-print 'Binary equlant is:\n',s2.join(st)
+num=input('Enter the number \n')
+flag=0
+for x in num:
+    if int(x)!=0 and int(x)!=1:
+        flag=1
+        break
+if  flag==1:
+    print("No")
+else:
+    print("Yes")
