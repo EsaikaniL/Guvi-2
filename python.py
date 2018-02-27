@@ -1,2 +1,1 @@
-print "type below website and study PYTHON \n"
-print "https://www.python.org/"
+print(round((int(input("Enter the number"))/10)+1)*10)
