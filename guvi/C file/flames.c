@@ -3,7 +3,7 @@
 void main()
 {
 	char a[200],b[200],f[10]="flames",f1[10];
-	int l1,l2,l3,l4,i,t1,j,k,p,m,q,flag=0,n;
+	int l1,l2,l3,l4,i,t1,j,k,p=0,m,q=0,flag=0,n;
 	printf("Enter your name:");
 	gets(a);
 	printf("\nEnter your partner name:");
