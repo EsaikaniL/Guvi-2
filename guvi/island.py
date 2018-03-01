@@ -28,7 +28,6 @@ else:
                         count+=1
                     elif(y==n-1 and x!=0 and x!=n-1) and array[x+1][y]==0 and array[x-1][y]==0 and array[x][y-1]==0:
                         count+=1
-                    elif array[x][y-1]==0 and array[x][y+1]==0 and array[x+1][y]==0 and array[x-1][y]==0:
+                    elif y!=n-1 and x!=n-1 and x!=0 and y!=0 and array[x][y-1]==0 and array[x][y+1]==0 and array[x+1][y]==0 and array[x-1][y]==0:
                         count+=1
-print("Island",count)                    
-                   
+print("Island",count)   
