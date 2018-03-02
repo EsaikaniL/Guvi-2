@@ -18,6 +18,6 @@ while(n>0)
     k++;
     n=n/10;
 }
-if(flag==0){printf("\nYes");}
-else { printf("\nNo");}
+if(flag==0){printf("\nNo");}
+else { printf("\nYes");}
 }
