@@ -2,13 +2,16 @@
 
 int main()
 {
-  int n,t,ans=0;
+  int n,t,i,a[255],k=0;
   scanf("%d",&n);
   while(n!=0)
   {
       t=n%2;
-      ans=ans*10+t;
+      a[k++]=t;
       n=n/2;
   }
-  printf("%d",ans);
+  for(i=k-1;i>=0;i--)
+  {
+      printf("%d",a[i]);
+  }
 }
