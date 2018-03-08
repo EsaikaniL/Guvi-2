@@ -1,11 +1,10 @@
-n=int(input("Enter the N value:"))
+n=int(input())
 a=[]
-b=[]
-for x in range(n):
-	k=input()
-	a.append(k)
-for x in a:
-	for y in x:
-		if y!=' ':
-			b.append(y)
-print(min(b))
+c=0
+for x in range(n*2):
+    a.append(int(input()))
+for x in range(0,(n*2)-1):
+    if (x+1)%2==1:
+        if a[x]<a[x+1]:
+            c+=1
+print(x)
