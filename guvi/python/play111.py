@@ -1,8 +1,8 @@
 ip=input().strip()
 n=int(ip.split(" ")[0])
 m=int(ip.split(" ")[1])
-st=input()
-a=st.split(" ")
+s=input()
+a=s.split(" ")
 an=""
 b=[]
 c=[]
