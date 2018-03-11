@@ -9,4 +9,4 @@ for x in a:
 for x in a[::-1]:
     ans=ans+str(p)+" "
     p-=int(x)
-print(ans)
+print(ans.strip())
