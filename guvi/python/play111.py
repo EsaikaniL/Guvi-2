@@ -3,7 +3,7 @@ n=int(ip.split(" ")[0])
 m=int(ip.split(" ")[1])
 st=input()
 a=st.split(" ")
-ans=""
+an=""
 b=[]
 c=[]
 d=[]
@@ -17,5 +17,5 @@ for x in b:
             if x not in d:
                 d.append(x)
 for x in d:
-    ans+=str(x)+" "
-print(ans.strip())
+    an+=str(x)+" "
+print(an.strip())
