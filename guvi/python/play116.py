@@ -9,7 +9,7 @@ for x in range(n-1):
 b.sort()
 for x in b[::-1]:
     ans+=str(x)+" "
-for x in a:
+for x in sorted(a)[::-1]:
     if x not in b:
          ans+=str(x)+" "
 print(ans.strip())
