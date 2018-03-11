@@ -9,7 +9,7 @@ c=[]
 d=[]
 for x in range(n):
     b.append(a[x])
-for x in range(m):
+for x in range(n,n+m):
     c.append(a[x])
 for x in b:
     for y in c:
