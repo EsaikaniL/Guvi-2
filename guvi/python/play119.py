@@ -1,3 +1,1 @@
-n=input()
-ans=int(n,16)
-print(ans)
+print(int(input(),16))
