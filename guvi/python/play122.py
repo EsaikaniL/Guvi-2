@@ -6,7 +6,7 @@ elif int(st[1])==2:
 elif int(st[1])==3:
     print("March")
 elif int(st[1])==4:
-    print("April ")
+    print("April")
 elif int(st[1])==5:
     print("May")
 elif int(st[1])==6:
@@ -18,7 +18,7 @@ elif int(st[1])==8:
 elif st[1]==9:
     print("September")
 elif int(st[1])==10:
-    print("October ")
+    print("October")
 elif int(st[1])==11:
     print("November")
 elif int(st[1])==12:
