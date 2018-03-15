@@ -4,4 +4,4 @@ def fac(num):
         ans*=x
     return ans
 n=int(input())
-print(fac(2*n)//(fac(n)*fac(n+1)))
+print(str(fac(2*n)//(fac(n)*fac(n+1))))
